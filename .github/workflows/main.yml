@@ -1,17 +1,39 @@
-name: CI
-on: [push]
+name: github pages
+
+on:
+  push:
+    branches:
+      - master
+
 jobs:
-  build:
-    name: Test
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - uses: borales/actions-yarn@v2.0.0
+
+      - name: Setup Node
+        uses: actions/setup-node@v2.1.0
         with:
-          cmd: install # will run `yarn install` command
-      - uses: borales/actions-yarn@v2.0.0
+          node-version: '12.16.3'
+
+      - name: Get yarn cache
+        id: yarn-cache
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
         with:
-          cmd: build # will run `yarn build` command
-      - uses: borales/actions-yarn@v2.0.0
+          path: ${{ steps.yarn-cache.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - run: yarn install --frozen-lockfile
+      - run: yarn build
+      - run: yarn export
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          cmd: test # will run `yarn test` command
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
