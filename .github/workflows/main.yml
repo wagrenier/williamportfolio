@@ -39,4 +39,3 @@ jobs:
           publish_dir: ./build
           user_name: 'wagrenier'
           user_email: 'william.a-g@hotmail.com'
-      - run: yarn deploy
