@@ -3,79 +3,78 @@
 		"firstName": "William",
 		"lastName": "Adam-Grenier",
 		"phoneNumber": "123456789",
-		"bio": "I am an opensource contributor and have contributed to Zulip, Hasura, Fossasia, Publiclab and many other projects. My tech stack includes Python and Javascript. Python for server side and scripting and Javascript for the frontend. I use Django framework for the server side development and React for the frontend development. I have also worked with GraphQL. I am a GitHub Campus Expert at my insititute where I am responsible for building on campus community. I am the lead organiser of Hack In The North Hackathon and the cofounder of Pragma Conference held at IIIT Allahabad.",
-    "email": "dagaranupam@gmail.com",
-    "linkedin": "https://linkedin.com/in/anupamdagar",
-		"github": "https://github.com/Anupam-dagar"
+		"bio": "If you ask my coworkers and friends, they'll say I'm the weird guy who studies Japanese, but at least he showers often.",
+    "email": "william.a-g@hotmail.com",
+    "linkedin": "https://www.linkedin.com/in/william-adam-grenier-339559165/",
+		"github": "https://github.com/wagrenier"
 	},
 	"experience": [
 		{
-				"position": "GitHub Campus Expert",
-				"organization": "GitHub",
-				"aboutWork": "Responsible for building the on campus community with the support of GitHub.",
-				"fromDate": "August 2018",
-				"toDate": "Present"
-		},
-		{
-			"position": "Opensource Developer Intern",
-			"organization": "Fossasia",
-			"aboutWork": "Contributing to Fossasia's open event server and frontend as an intern. Resolved numerous bugs and added new features to the eventyay platform.",
-			"fromDate": "June 2019",
-			"toDate": "Present"
-		},
-		{
 			"position": "Software Developer Intern",
-			"organization": "Hasura",
-			"aboutWork": "Worked on Hasura's GraphQL engine and added new features in it.",
-			"fromDate": "December 2018",
-			"toDate": "January 2019"
+			"organization": "GSoft",
+			"aboutWork": "Security testing",
+			"fromDate": "September 2020",
+			"toDate": "December 2020"
+		},
+		{
+			"position": "Intern Tools Programmer",
+			"organization": "Square Enix Montreal, Armory",
+			"aboutWork": "Developping and designing a new platform to support the needs of modern mobile games' needs",
+			"fromDate": "August 2019",
+			"toDate": "December 2019"
+		},
+		{
+			"position": "Intern Tools Programmer",
+			"organization": "Ubisoft Montreal, BuildDB",
+			"aboutWork": "Designing new REST API application",
+			"fromDate": "April 2018",
+			"toDate": "April 2019"
 		}
 	],
 	"education": [{
-			"university": "Indian Institute of Information Technology Allahabad",
-			"degree": "Bachelor of Technology",
-			"gpa": "12.34",
-			"fromDate": "August 2016",
-			"toDate": "Present"
+			"university": "Université de Sherbrooke",
+			"degree": "Computer Engineering",
+			"fromDate": "August 2017",
+			"toDate": "December 2021"
 		}
 	],
 	"skills": [{
-			"name": "HTML5"
+			"name": "C++"
 		},
 		{
-			"name": "CSS3"
+			"name": "Java"
 		},
 		{
-			"name": "Javascript"
-		},
-		{
-			"name": "React"
-		},
-		{
-			"name": "Nodejs"
+			"name": "C#"
 		},
 		{
 			"name": "Python"
 		},
 		{
-			"name": "Django"
+			"name": "Nodejs"
 		},
 		{
-			"name": "Ember"
+			"name": "ASP.NET"
+		},
+		{
+			"name": "Software Architecture"
+		},
+		{
+			"name": "Reverse Engineering"
 		}
 	],
 	"interests": {
-		"paragraphOne": "Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.",
-		"paragraphTwo": "When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world."
+		"paragraphOne": "Did I mention that I study Japanese?",
+		"paragraphTwo": "日本語を勉強している."
 	},
 	"awards": [{
-			"awardDetail": "Hack 36 3rd prize winner."
+			"awardDetail": "My dad likes me."
 		},
 		{
-			"awardDetail": "Mentor OpenCode'19"
+			"awardDetail": "Hackathon."
 		},
 		{
-			"awardDetail": "Started North India's First Student Design and Developer Conference."
+			"awardDetail": "Prix UdeS."
 		}
 	]
 }
