@@ -6,7 +6,7 @@ class Experience extends Component {
     const landingData = this.props.landingData;
 
     return(
-      <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <section className="resume-section p-3 p-lg-5 d-flex align-items-center justify-content-center" id="experience">
         <div className="w-100">
           <h2 className="mb-5">{landingData.sections.experience}</h2>
           {
