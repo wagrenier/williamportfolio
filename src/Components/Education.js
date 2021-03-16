@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
 
 class Education extends Component {
-  constructor(props) {
-    super(props);
-
-    this.education = props.education;
-  }
-
   render() {
+    const education = this.props.education;
+    const landingData = this.props.landingData;
+
     return(
       <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
         <div className="w-100">
-          <h2 className="mb-5">Education</h2>
+          <h2 className="mb-5">{landingData.sections.education}</h2>
           {
-            this.education.map((data, index) => (
+            education.map((data, index) => (
               <div key={index} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="resume-content">
                   <h3 className="mb-0">{data.university}</h3>

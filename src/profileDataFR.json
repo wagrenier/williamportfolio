@@ -1,25 +1,23 @@
 {
-	"landing": 
-	{
+	"landing": {
 		"firstName": "William",
 		"lastName": "Adam-Grenier",
-		"bio": "If you ask my coworkers and friends, they'll say I'm the weird guy who studies Japanese, but at least he showers often.",
+		"bio": "Français",
     	"email": "william.a-g@hotmail.com",
     	"linkedin": "https://www.linkedin.com/in/william-adam-grenier-339559165/",
 		"github": "https://github.com/wagrenier",
 		"sections": {
-			"about": "ABOUT",
-			"experience": "EXPERIENCE",
-			"education": "EDUCATION",
-			"skills": "SKILLS",
-			"interests": "INTERESTS",
-			"awards": "AWARDS & CERTIFICATIONS"
+			"about": "À PROPOS",
+			"experience": "EXPÉRIENCE",
+			"education": "ÉDUCATION",
+			"skills": "ATOUTS",
+			"interests": "INTÉRÊTS",
+			"awards": "PRIX"
 		}
 	},
-	"experience": 
-	[
+	"experience": [
 		{
-			"position": "Software Developer Intern",
+			"position": "Interne",
 			"organization": "GSoft",
 			"aboutWork": 
 			[
@@ -54,9 +52,9 @@
 	[
 		{
 			"university": "Université de Sherbrooke",
-			"degree": "Computer Engineering",
-			"fromDate": "August 2017",
-			"toDate": "December 2021"
+			"degree": "Ingénieur informatique",
+			"fromDate": "Août 2017",
+			"toDate": "Décembre 2021"
 		},
 		{
 			"university": "Champlain College",
@@ -92,7 +90,7 @@
 			"name": "ASP.NET"
 		},
 		{
-			"name": "Software Architecture"
+			"name": "Architecture"
 		},
 		{
 			"name": "Reverse Engineering"
@@ -101,15 +99,14 @@
 			"name": "Basics of penetration testing"
 		}
 	],
-	"interests": 
-	{
-		"paragraphOne": "I enjoy reverse engineering, old games, learning new languages and low level/security stuff.",
+	"interests": {
+		"paragraphOne": "J'aime faire des choses différentes!",
 		"paragraphTwo": "日本語を勉強している."
 	},
 	"awards": 
 	[
 		{
-			"awardDetail": "My dad likes me."
+			"awardDetail": "Mom papa m'aime"
 		},
 		{
 			"awardDetail": "Hackathon."
