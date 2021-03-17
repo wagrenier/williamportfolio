@@ -18,16 +18,16 @@ import profileDataJP from './profileDataJP.json';
 const Languages = {
   English: "EN",
   French: "FR",
-  Japanese: "JP/日本語"
+  Japanese: "日本語"
 };
 
 class App extends Component {
-  
   constructor(props) {
     super(props);
     this.handleChange = this.handleChange.bind(this);
 
-    this.state = {
+    this.state = 
+    {
       landingData : profileDataEN.landing,
       experience : profileDataEN.experience,
       education : profileDataEN.education,
@@ -59,13 +59,14 @@ class App extends Component {
 
     this.setState(
       {
-      landingData : currentConfig.landing,
-      experience : currentConfig.experience,
-      education : currentConfig.education,
-      skills : currentConfig.skills,
-      interests : currentConfig.interests,
-      awards : currentConfig.awards
-    });
+        landingData : currentConfig.landing,
+        experience : currentConfig.experience,
+        education : currentConfig.education,
+        skills : currentConfig.skills,
+        interests : currentConfig.interests,
+        awards : currentConfig.awards
+      }
+    );
   }
   
   render() {
@@ -79,15 +80,14 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar fixed='top' >
-        <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
-          <Nav >
-            <Nav.Link onClick={this.handleChange}>{Languages.English}</Nav.Link>
-            <Nav.Link onClick={this.handleChange}>{Languages.French}</Nav.Link>
-            <Nav.Link onClick={this.handleChange}>{Languages.Japanese}</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+          <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
+            <Nav>
+              <Nav.Link onClick={this.handleChange}>{Languages.English}</Nav.Link>
+              <Nav.Link onClick={this.handleChange}>{Languages.French}</Nav.Link>
+              <Nav.Link onClick={this.handleChange}>{Languages.Japanese}</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
-
         <Sidebar sidebarData={landingData} onChange={this.handleChange}/>
         <div className="container-fluid p-0">
           <Landing landingData={landingData} onChange={this.handleChange}/>

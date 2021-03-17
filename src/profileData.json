@@ -3,7 +3,7 @@
 	{
 		"firstName": "William",
 		"lastName": "Adam-Grenier",
-		"bio": "Website for my portfolio, in the works.",
+		"bio": "Bonjour! Hi! 今日は～！ My name is William, I speak French, English and basic Japanese. I am studying computer engineering and learning languages is my passion, both computer languages and human languages. Video game archival is important for me and I love to pen test things in my free time.",
     	"email": "william.a-g@hotmail.com",
     	"linkedin": "https://www.linkedin.com/in/william-adam-grenier-339559165/",
 		"github": "https://github.com/wagrenier",
@@ -24,7 +24,9 @@
 			"aboutWork": 
 			[
 				"Develop new infrastructure solutions and tools to accelerate the creation of new features",
-				"Act as an itermediary between the security team and development team"
+				"Act as an itermediary between the security team and development team",
+				"Find and fix security vulnerabilities contained in the application",
+				"Communicate effective methodologies to prevent future security flaws by design"
 			],
 			"fromDate": "September 2020",
 			"toDate": "December 2020"
@@ -34,7 +36,10 @@
 			"organization": "Square Enix Montreal, Armory",
 			"aboutWork":
 			[
-				"Develop and designing a new platform to support the needs of modern mobile games' needs"
+				"Optimize cross and in-service data management in C#",
+				"Develop a compiler from OpenAPI to C#",
+				"Design new services",
+				"Optimize services performance"
 			],
 			"fromDate": "August 2019",
 			"toDate": "December 2019"
@@ -44,7 +49,10 @@
 			"organization": "Ubisoft Montreal, BuildDB",
 			"aboutWork":
 			[
-				"Design new REST API application for large scale data transfer applicaiton in a video game context"
+				"Design new REST API applications for large scale data transfer in a video game context",
+				"Manage SQL database",
+				"Design a log system with standarization of information",
+				"Organize log information in Python and Kibana"
 			],
 			"fromDate": "April 2018",
 			"toDate": "April 2019"
@@ -92,30 +100,60 @@
 			"name": "ASP.NET"
 		},
 		{
+			"name": "Powershell"
+		},
+		{
+			"name": "CI/CD"
+		},
+		{
 			"name": "Software Architecture"
 		},
 		{
-			"name": "Reverse Engineering"
+			"name": "Reverse Engineering With Ghidra"
 		},
 		{
 			"name": "Basics of penetration testing"
+		},
+		{
+			"name": "French"
+		},
+		{
+			"name": "English"
+		},
+		{
+			"name": "Japanese (~N4)"
 		}
 	],
 	"interests": 
 	{
-		"paragraphOne": "I enjoy reverse engineering, old games, learning new languages and low level/security stuff.",
-		"paragraphTwo": "日本語を勉強している."
+		"paragraphOne": "I enjoy reverse engineering, old games, learning new languages and low level/security stuff. I have made a data extractor from reverse engineering a game's data format and file format. This tool can extract music, 2D/3D textures and videos. I have also made a ransomware that encrypts files with AES and forces the user to play 東宝(touhou) to decrypt the files. The applications searches and scans the memory for specific information.",
+		"paragraphTwo": "今日は、日本語を勉強している. I enjoy studying new languages, currently studying Japanese! "
 	},
 	"awards": 
 	[
 		{
-			"awardDetail": "My dad likes me."
+			"awardDetail": "CTF 2020, 2020, Capture The Flag competition & Penetration Testing, Montreal"
 		},
 		{
-			"awardDetail": "Hackathon."
+			"awardDetail": "NorthSec 2019, 2019, Capture The Flag competition & Penetration Testing, Montreal"
 		},
 		{
-			"awardDetail": "Prix UdeS."
+			"awardDetail": "ConUHacks IV, 2019, Software hackathon, University of Concordia, Montreal"
+		},
+		{
+			"awardDetail": "ConUHacks IV, 2019, Software hackathon, University of Concordia, Montreal"
+		},
+		{
+			"awardDetail": "ConUHacks III, 2018, Software hackathon, University of Concordia, Montreal"
+		},
+		{
+			"awardDetail": "PIRUS, 2017, Robotic competition, University of Sherbrooke, Sherbrooke"
+		},
+		{
+			"awardDetail": "Won the audience’s award for the robotic competition Pirus, entirely coded in C"
+		},
+		{
+			"awardDetail": "Canadian Computing Competition, Software algorithms, 2016, University of Waterloo, St Lambert"
 		}
 	]
 }
